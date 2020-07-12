@@ -1,0 +1,26 @@
+server:
+  port: 7777
+filePath: D:\wsdl\py.xlsx
+productcode: FQL001
+#sfcode: 0 0 15 * * ?
+sfcode: 0 55 15 * * ?
+isstart: 1
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://172.16.131.105:8763/eureka/
+#  instance:
+#    prefer-ip-address: false
+#    lease-renewal-interval-in-seconds: 5
+#    lease-expiration-duration-in-seconds: 10
+#spring:
+#  application:
+#    name: testservice
+#  datasource:
+#    name: read
+#    url: jdbc:oracle:thin:@172.16.131.42:1521:amarcrqdb1
+#    username: creditquery
+#    password: creditquery
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+  #main:
+    #allow-bean-definition-overriding: true
